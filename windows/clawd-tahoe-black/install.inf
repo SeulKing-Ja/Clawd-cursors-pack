@@ -1,0 +1,51 @@
+; Right-click this file and choose Install, then pick the scheme in
+; Mouse settings > Additional mouse settings > Pointers.
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\default.ani,%10%\%CUR_DIR%\help.ani,%10%\%CUR_DIR%\progress.ani,%10%\%CUR_DIR%\wait.ani,%10%\%CUR_DIR%\crosshair.ani,%10%\%CUR_DIR%\text.ani,%10%\%CUR_DIR%\pointer.ani,%10%\%CUR_DIR%\not-allowed.ani,%10%\%CUR_DIR%\ns-resize.ani,%10%\%CUR_DIR%\ew-resize.ani,%10%\%CUR_DIR%\nwse-resize.ani,%10%\%CUR_DIR%\nesw-resize.ani,%10%\%CUR_DIR%\move.ani,%10%\%CUR_DIR%\default.ani,%10%\%CUR_DIR%\pointer.ani,%10%\%CUR_DIR%\pointer.ani,%10%\%CUR_DIR%\pointer.ani"
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\default.ani"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\help.ani"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\progress.ani"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\wait.ani"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\crosshair.ani"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\text.ani"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\pointer.ani"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\not-allowed.ani"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\ns-resize.ani"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\ew-resize.ani"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\nwse-resize.ani"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\nesw-resize.ani"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\move.ani"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\default.ani"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\pointer.ani"
+HKCU,"Control Panel\Cursors",Pin,0x00020000,"%10%\%CUR_DIR%\pointer.ani"
+HKCU,"Control Panel\Cursors",Person,0x00020000,"%10%\%CUR_DIR%\pointer.ani"
+
+[Scheme.Cur]
+crosshair.ani
+default.ani
+ew-resize.ani
+help.ani
+move.ani
+nesw-resize.ani
+not-allowed.ani
+ns-resize.ani
+nwse-resize.ani
+pointer.ani
+progress.ani
+text.ani
+wait.ani
+
+[Strings]
+CUR_DIR     = "Cursors\Clawd Tahoe Black"
+SCHEME_NAME = "Clawd Tahoe Black"
